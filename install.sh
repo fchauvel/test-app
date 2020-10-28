@@ -12,7 +12,7 @@ git clone https://github.com/fchauvel/test-app.git
 cd test-app
 
 virtualenv .venv
-source .venv/Scripts/activate
+source .venv/bin/activate
 
 pip install -r requirements.txt
 
