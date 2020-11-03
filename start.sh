@@ -3,4 +3,5 @@
 pwd
 
 source .venv/bin/activate
-python3 app.py&
+nohup python app.py > log.txt 2>&1 &
+
