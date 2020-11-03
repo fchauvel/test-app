@@ -15,9 +15,9 @@ git clone https://github.com/fchauvel/test-app.git
 
 cd test-app
 
-virtualenv .venv
+virtualenv .venv -p /usr/bin/python3
+
 source .venv/bin/activate
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
-#python app.py
