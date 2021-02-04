@@ -13,5 +13,5 @@ pip3 install virtualenv
 
 virtualenv .venv -p /usr/bin/python3
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install --trusted-host pypi.python.org -r requirements.txt
 
