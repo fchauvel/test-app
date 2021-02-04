@@ -13,5 +13,5 @@ pip3 install virtualenv
 
 virtualenv .venv -p /usr/bin/python3
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt config --global http.sslVerify false 
 
